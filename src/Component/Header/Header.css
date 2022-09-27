@@ -1,0 +1,37 @@
+.header{
+    background-color: #1C2B35;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.feature{
+    display: flex;
+    color: white;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    font-weight: 500;
+}
+.feature a{
+    text-decoration: none;
+    color: white;
+}
+.feature a:hover{
+    color: tomato;
+}
+@media screen and (max-width: 600px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        padding-block-start:20px ;
+        padding-block-end:20px ;
+    }
+    .header a{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        margin-top: 20px;
+    }
+}
